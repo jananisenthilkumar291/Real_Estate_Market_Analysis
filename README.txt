@@ -18,6 +18,7 @@ original data
                     1 from month_date_yyyymm ... namely(month_date)- type mth
 
 ....... Fill gaps before checking for NULL values .....
+Used Linear Interpolation
 
 - find null values
     - print(colSums(is.na(df)))
@@ -35,3 +36,19 @@ median_listing_price_per_square_foot                   median_square_feet
                                    0                                    0 
                           month_date 
                                    0 
+
+Perform - 
+- State Level Aggregates
+- National Level Aggregate
+Visualize Seasonality
+Insample Forcast
+
+-> train - 2016 Jul - 2023 Mar
+-> test - 2023 Apr - 2024 Mar
+
+Out of sample Forecast
+
+-> train - 2016 Jul - 2024 Mar
+-> test - 2024 Apr - 2025 Mar
+
+
